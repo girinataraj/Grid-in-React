@@ -1,0 +1,137 @@
+/* *
+{
+    margin: 0;   
+    padding: 0;
+} */
+.headder
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100px;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+}
+.hb1
+{
+    display: grid;
+    /* height: 20px; */
+    /* width: 100px; */
+    justify-content: center;
+}
+.hb2
+{
+    display: grid;
+    justify-content: center;
+    grid-column: 2/4;
+}
+.datediv
+{
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.maintitle
+{
+    h1
+    {
+        width: 900px;
+        font-size: 5rem;
+        border-bottom: 3px solid silver;
+    }
+    /* border: 1px solid red; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1,h2,h3
+{
+    text-align: center;
+}
+.subtitle
+{
+    h1
+    {
+        width: 100%;
+        font-size: 3rem;
+    }
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.mainbody
+{
+    display: grid;
+    gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* height: 300vh; */
+}
+.bodyleft
+{
+    /* background-color: aqua; */
+    grid-column: 1/3;
+}
+.bodyright
+{
+    /* background-color: brown; */
+}
+.imgdiv1
+{
+    
+    height: 500px;
+    /* width: 90%; */
+    background-image: url("../assets/images/img1.jpg");
+    background-size: cover;
+}
+.leftsplit
+{
+    display: grid;
+    gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100vh;
+}
+.LSl
+{
+    /* background-color: violet; */
+    border-right: 1px solid black;
+
+}
+.LSr
+{
+    grid-column: 2/4;
+    border-right: 1px solid black;
+    
+    /* background-color: red;    */
+}
+.paradiv
+{
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.imgdiv2
+{
+    
+    height: 210px;
+    width: 210px;
+    background-image: url("../assets/images/img1.jpg");
+    background-size: cover;
+}
+.paradiv2
+{
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imgdiv3
+{
+    
+    height: 210px;
+    width: 210px;
+    background-image: url("../assets/images/img1.jpg");
+    background-size: cover;
+}
